@@ -6,8 +6,20 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  
+<body onload="carregarCarros()">
+  <div class="container">
+      <h1>Concessionaria</h1>
+      <div class="grupo-input">
+        <input type="text" id="carroNome" placeholder="Nome do carro">
+        <input type="text" id="carroAno" placeholder="Ano do carro">
+        <input type="text" id="carroImagem" placeholder="URL da imagem">
+        <button id="add-carro" onclick="addCarro()">
+          <span class="material-symbols-outlined">Adicionar Carro</span>
+        </button>
+      </div>
+      <ul id="lista-carros">
+      </ul>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

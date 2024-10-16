@@ -3,3 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #e23232;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  /*Para colocar no centro da tela(horizontal)*/
+  align-items: start;
+  /*Para colocar no topo da tela(vertical)*/
+  height: 100vh;
+
+}
+
+.container {
+  background-color: #e66161;
+  margin: 30px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 11px 10px 14px 8px rgba(0, 0, 0, 0.55);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+}
+
+.container .grupo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+#add-carro {
+  margin-bottom: 10px;
+}
+
+#lista-carros li {
+  background-color: #ecebeb;
+  border: 1px solid #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
